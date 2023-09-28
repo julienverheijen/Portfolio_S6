@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "coverImage": "https://res.cloudinary.com/daily-now/image/upload/f_auto,q_auto/v1/posts/dd19e7a56475f39ab1c38167c02c7b58",
+      "logoImage": "https://res.cloudinary.com/daily-now/image/upload/t_logo,f_auto/v1/logos/4a287b2e7cb5499bae863f8e7137cdb4",
+      "projectType": "1",
+      "learningOutcome": "1,2,4",
+      "title": "Project Plan",
+      "details": "1Lorem ipsum dolor sit amet, elit. Maecen sagittis. Curabitur mi neque, ultrices gravida faucibus eget, eleifend non tortor.",
+      "link": "#",
+      "context": "context....",
+      "results": "results....",
+      "conclusion": "conclusion...."
+    },
+    {
+        "id": 2,
+        "coverImage": "https://res.cloudinary.com/daily-now/image/upload/f_auto,q_auto/v1/posts/dd19e7a56475f39ab1c38167c02c7b58",
+        "logoImage": "https://res.cloudinary.com/daily-now/image/upload/t_logo,f_auto/v1/logos/4a287b2e7cb5499bae863f8e7137cdb4",
+        "projectType": "1",
+        "learningOutcome": "1,2,4",
+        "title": "Project Naam 2",
+        "details": "2Lorem ipsum dolor sit amet, elit. Maecen sagittis. Curabitur mi neque, ultrices gravida faucibus eget, eleifend non tortor.",
+        "link": "#",
+        "context": "test test test",
+        "results": "results....",
+        "conclusion": "conclusion...."
+    }
+    
+  ]

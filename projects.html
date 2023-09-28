@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <div class="cards_container">
+        <template id="card-template">
+          <a class="card" id="card-link" target="_blank">
+
+            <div class="card_top">
+              <div>
+                <img class="header__img" id="cover-img" alt="" />
+              </div>
+              <div>
+                <img class="body__img" id="logo-img" alt="" />
+              </div>
+              <div>
+                <img class="body__img" id="project-type" alt="" />
+              </div>
+            </div>
+
+            <div class="card_bottom">                
+              <h3 class="footer__title" id="card-title"></h3>
+              <div class="footer__text" id="card-details">
+              </div>
+            </div>
+          </a>
+        </template>
+      </div>
+</body>
+</html>
