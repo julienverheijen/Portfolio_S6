@@ -23,11 +23,11 @@
      posts.forEach((post) => {
        const div = cardTemplate.content.cloneNode(true);
        div.getElementById("card-link").href = post.link;
-       div.getElementById("logo-img").src = post.logoImage;
+       div.getElementById("card-learningOutcome-icon").src = post.projectTypeIcon;
+    //    div.getElementById("card-projectType-icon").content = post.learningOutcomeIcon;
        div.getElementById("card-title").textContent = post.title;
        div.getElementById("card-details").textContent = post.details;
-       div.getElementById("cover-img").src = post.coverImage;
-    //    div.getElementById("project-type").content = post.projectType;
+       div.getElementById("card-cover-img").src = post.coverImage;
        container.append(div);
      });
    });

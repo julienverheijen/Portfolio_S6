@@ -11,6 +11,7 @@
     --lo5: #F56A01;
     --lo6: #F56A01;
     --lo7: #F56A01;
+    --transparent: #0000007b;
     --shadow:  inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.1),
                 0 0 0 1px hsla(230, 13%, 9%, 0.075),
                 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
@@ -84,7 +85,7 @@ a {
           
 }
 
-.card_top .header__img {
+.card_top .top__img {
   height: 15rem;
   width: 100%;
   -o-object-fit: cover;
@@ -92,7 +93,19 @@ a {
   border-radius: 1rem 1rem 0 0;
 }
 
-.card_bottom .footer__title {
+.top__icon {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;  
+    margin: 0 0.5rem;
+    padding: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--transparent);
+    border-radius: 50%;
+  }
+
+.card_bottom .bottom__title {
   font-size: 1.0625rem;
   line-height: 1.375rem;
   color: var(--white);
@@ -100,21 +113,13 @@ a {
   margin: 0.5rem;
 }
 
-.card_bottom .footer__text {
+.card_bottom .bottom__text {
     font-size: 1.0625rem;
     line-height: 1.375rem;
     color: var(--white);
     font-weight: 300;
     margin: 0.5rem;
   }
-
-.body__img {
-  position: absolute;
-  bottom: 0.5rem;
-  left: 0.5rem;  
-  margin: 0 0.5rem;
-
-}
 
 .card_bottom {
   display: -webkit-box;
@@ -131,3 +136,10 @@ a {
 .card:hover {
   background-color: #F56A01;
 }
+
+@media screen and (min-width: 1280px) {
+    .maxViewWidth {
+      width: 1250px;
+      margin: auto;
+    }
+  }
