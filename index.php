@@ -6,9 +6,12 @@
     <title>Portfolio Homepage</title>
     <script type="module" src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="homepage.css">
 </head>
-<body>
-    <button onclick="window.location.href = 'projects.html';">
+<body class= "maxViewWidth">
+    <?php include("navigation.html");?>
+
+    <button onclick="window.location.href = 'projects.php';">
         Projects
       </button>
 </body>

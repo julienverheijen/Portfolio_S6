@@ -10,6 +10,9 @@
     <script> var projectId = 1; </script>
 </head>
 <body class="maxViewWidth">
+
+    <?php include("../navigation.html");?>
+
         <header>
             <h1 id="deliverable-title"></h1>
             <p id="deliverable-details"></p>

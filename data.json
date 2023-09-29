@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Project Plan",
-      "link": "../deliverbles/Projectplan.html",
+      "link": "../deliverbles/Projectplan.php",
       "projectType": "1",
       "learningOutcome": "1,2,4",
       "coverImage": "../assets/images/Project-Plan.png",

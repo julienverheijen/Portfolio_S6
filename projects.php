@@ -7,7 +7,10 @@
     <script type="module" src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="maxViewWidth">
+
+<?php include("navigation.html");?>
+
       <div class="cards_container">
         <template id="card-template">
           <a class="card" id="card-link">
