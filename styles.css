@@ -71,6 +71,16 @@ a {
   text-decoration: none;
 }
 
+.button{
+  display: block;
+  background-color: var(--grey);
+  color: var(--white);
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+  text-decoration: none;
+  border-radius: 2rem;
+}
+
 .cards_container {
   display: -webkit-box;
   display: -ms-flexbox;

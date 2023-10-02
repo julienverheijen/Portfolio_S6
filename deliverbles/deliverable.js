@@ -12,6 +12,6 @@ fetch("../data.json")
         document.getElementById("deliverable-context-img").src = deliverable.mediaContext
         document.getElementById("deliverable-results-img").src = deliverable.mediaResults
         document.getElementById("deliverable-conclusion-img").src = deliverable.mediaConclusion
-        
+        document.getElementById("documentBtn").href = deliverable.documentLink
    });
 });  

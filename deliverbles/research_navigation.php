@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Plan</title>
+    <title>Research Navigation</title>
     <script type="module" src="../deliverbles/deliverable.js"></script>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../deliverbles/deliverable.css">
-    <script> var projectId = 1; </script>
+    <script> var projectId = 2; </script>
 </head>
 <body class="maxViewWidth">
     <?php include("../navigation.html");?>
