@@ -6,10 +6,213 @@
     <title>Reading Guide</title>
     <script type="module" src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="readingguide.css">
 </head>
 <body class="maxViewWidth">
     
-<?php include("navigation.html");?>
+<nav class="mainNav">
+    <li id="backBtn"><a href="javascript:history.back()">&#10094; Back</a></li>
+    <li id="readingGuideBtn"><a href="../documents/reading_guide.pdf" target="_blank">Open PDF File</a></li>
+</nav>
+<div class="rg-container">
+    <div>
+        <h1>Reading Guide</h1>
+        <h2>Table of Contents</h2>
+        <hr>
+            <ol class="toc-list" role="list">
+                <li>
+                    <a href="#theProjects">
+                        <span class="title">1. The Projects</span>
+                    </a>
+                    <li>
+                        <a href="#theProjectsPersonal">
+                            <span class="title">&emsp; Personal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#theProjectsInternational">
+                            <span class="title">&emsp; International</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#theProjectsGroup">
+                            <span class="title">&emsp; Group</span>
+                        </a>
+                    </li>
+                    <a href="#process">
+                        <span class="title">2. Process</span>
+                    </a>
+                    <li>
+                        <a href="#processPersonal">
+                            <span class="title">&emsp; Personal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#processInternational">
+                            <span class="title">&emsp; International</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#processGroup">
+                            <span class="title">&emsp; Group</span>
+                        </a>
+                    </li>
+                    <a href="#refelction">
+                        <span class="title">3. Refelction</span>
+                    </a>
+                    <li>
+                        <a href="#refelctionPersonal">
+                            <span class="title">&emsp; Personal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#refelctionInternational">
+                            <span class="title">&emsp; International</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#refelctionGroup">
+                            <span class="title">&emsp; Group</span>
+                        </a>
+                    </li>
+                    <a href="#burdenOfProof" id="toc-bof">
+                        <span class="title">4. Burden of Proof</span>
+                    </a>
+                </li>
+            </ol>
+
+            <div>
+                <h2 class="readingGuideTitle" id="theProjects">1. The Projects</h2>
+                <hr>
+                <h3 class="readingGuideTitle" id="theProjectsPersonal">Personal</h3>
+                <p> 
+                    During the personal project, I made a personal portfolio in the form of a working website. The portfolio is used to show how I reached the learning outcomes, which research methods I used, the end product, and the conclusions. Besides the portfolio, there needs to be a reading guide for quick and easy navigation through the portfolio.
+                    <br><br>
+                    For that reason, I came up with the main research question:
+                    How to create a scalable portfolio to present the projects to stakeholders and teachers in a visually appealing way?
+                </p>
+                <!-- <h3 class="readingGuideTitle" id="theProjectsInternational">International</h3>
+                <p> 
+                    Coming soon...
+                </p>
+                </p>
+                <h3 class="readingGuideTitle" id="theProjectsGroup">Group</h3>
+                <p> 
+                    Coming soon...
+                </p> -->
+            </div>
+
+            <div>
+                <h2 class="readingGuideTitle" id="process">2. Process</h2>
+                <hr>
+                <h3 class="readingGuideTitle" id="processPersonal">Personal</h3>
+                <p> 
+    <p style='margin:0cm;font-size:16px;'><span>To get a clear understanding of the project, I wrote a <strong><span style="color:#F56901;"><a href="https://i410544.hera.fhict.nl/portfolio_s6/deliverbles/projectplan.php">project plan</a></span></strong>. This describes the scope, research questions with research methods and overall planning for the first 3 weeks.</span></p>
+    <p style='margin:0cm;font-size:16px;'><span>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;'><span">To answer the main research question, the sub-questions had to be answered first. To answer the first sub-question &quot;<strong><span style="color:#F56901;"><a href="https://i410544.hera.fhict.nl/portfolio_s6/deliverbles/research_navigation.php">How can users easily navigate through the portfolio?</a></span></strong>&quot;, I researched the <span style="color:#51C3C3;">Focus group</span>. In combination with a <span style="color:#A8CE3B;">literature study</span>, I was able to conclude the different types of navigation options that could work for this target group.</span></p>
+    <p style='margin:0cm;font-size:16px;'><span>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;'><span>In order to answer the second sub-question &quot;<strong><span style="color:#F56901;"><a href="https://i410544.hera.fhict.nl/portfolio_s6/deliverbles/research_scalable.php">How to make a portfolio scalable?</a></span></strong>&quot;, I found out more about frameworks through a <span style="color:#A8CE3B;">literature</span> study. Through an <span style="color:#A8CE3B;">expert interview</span>, I concluded that it takes too much time to learn a framework properly in one semester and therefore use Vanilla JavaScript.</span></p>
+    <p style='margin:0cm;font-size:16px;'><span>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;'><span>To answer the third sub-question &quot;<strong><span style="color:#F56901;"><a href="https://i410544.hera.fhict.nl/portfolio_s6/deliverbles/research_visual.php">How do I make a portfolio visually attractive?</a></span></strong>&quot;, I conducted a <span style="color:#A8CE3B;">literature study</span> to find out more about the latest design trends, typography and visual attractiveness. Through <span style="color:#A8CE3B;">benchmark creation</span>, I got the inspiration to create two different wireframes through <span style="color:#24BFED;">sketching</span>. <span style="color:#FFD11D;">Co-reflection&nbsp;</span>gave me new ideas that were applied in a high-fidelity <span style="color:#24BFED;">prototype</span>. This prototype was tested in a <span style="color:#797DBC;">usability test&nbsp;</span>with people from the target group. The results of the test have revealed improvements that could be made to the design. It has also given new insights that can be added for a better user experience.</span></p>
+                </p>
+                <!-- <h3 class="readingGuideTitle" id="processInternational">International</h3>
+                <p> 
+                    Coming soon...
+                </p>
+                </p>
+                <h3 class="readingGuideTitle" id="processGroup">Group</h3>
+                <p> 
+                    Coming soon...
+                </p> -->
+            </div>
+
+            <div>
+                <h2 class="readingGuideTitle" id="refelction">3. Refelction</h2>
+                <hr>
+                <h3 class="readingGuideTitle" id="refelctionPersonal">Personal</h3>
+                <p>
+                During this project, I did a lot of research to make better design choices. The planning of the project plan was well pursued and therefore I am very satisfied with the result. 
+                </p>
+                <!-- <h3 class="readingGuideTitle" id="refelctionInternational">International</h3>
+                <p> 
+                    Coming soon...
+                </p>
+                </p>
+                <h3 class="readingGuideTitle" id="refelctionGroup">Group</h3>
+                <p> 
+                    Coming soon...
+                </p> -->
+            </div>
+</div>
+
+<div class="bop-container">
+    <h3 id="burdenOfProof">BURDEN OF PROOF</h3>
+        <div class="bop-item">
+            <button type="button" class="collapsible"><span class="dot" id="lo1" ></span>User interaction (analysis and advice)</button>
+            <div class="content">
+                <li><a href="../deliverbles/research_navigation.php"><span>Research - How can users easily navigate through the portfolio?</span></a></li>
+                <li><a href="../deliverbles/research_visual.php"><span>Research - How do I make a portfolio visually attractive?</span></a></li>
+            </div>
+        </div>
+        <div class="bop-item">
+            <button type="button" class="collapsible"><span class="dot" id="lo2" ></span>User interaction (execution & validation)</button>
+            <div class="content">
+                <li><a href="../deliverbles/research_visual.php"><span>Research - How do I make a portfolio visually attractive?</span></a></li>
+            </div>
+        </div>
+        <div class="bop-item">
+            <button type="button" class="collapsible"><span class="dot" id="lo3" ></span>Software development</button>
+            <div class="content">
+                <li><a href=""><span></span></a></li>
+            </div>
+        </div>
+        <div class="bop-item">
+            <button type="button" class="collapsible"><span class="dot" id="lo4" ></span>Future oriented organisation</button>
+            <div class="content">
+                <li><a href="../deliverbles/projectplan.php"><span>Personal Project Plan</span></a></li>
+            </div> 
+        </div>
+        <div class="bop-item">
+            <button type="button" class="collapsible"><span class="dot" id="lo5" ></span>Investigative problem solving</button>
+            <div class="content">
+                <li><a href="../deliverbles/projectplan.php"><span>Personal Project Plan</span></a></li>
+                <li><a href="../deliverbles/research_navigation.php"><span>Research - How can users easily navigate through the portfolio?</span></a></li>
+                <li><a href="../deliverbles/research_visual.php"><span>Research - How do I make a portfolio visually attractive?</span></a></li>
+                <li><a href="../deliverbles/research_scalable.php"><span>Research - How to make a portfolio scalable?</span></a></li>
+            </div> 
+        </div>
+        <div class="bop-item">
+            <button type="button" class="collapsible"><span class="dot" id="lo6" ></span>Personal leadership</button>
+            <div class="content">
+                <li><a href=""><span></span></a></li>
+            </div>
+        </div>
+        <div class="bop-item">
+            <button type="button" class="collapsible"><span class="dot" id="lo7" ></span>Goal-oriented interaction</button>
+            <div class="content">
+                <li><a href=""><span></span></a></li>
+            </div>
+        </div>
+</div>
+
+</div>
 
 </body>
 </html>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>

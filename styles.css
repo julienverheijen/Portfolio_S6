@@ -4,13 +4,13 @@
     --white: #ffffff;
     --grey: #3e3e3e;
     --orange: #F56A01;
-    --lo1: #9685FF;
-    --lo2: #DFFF85;
-    --lo3: #FF8585;
-    --lo4: #85F8FF;
-    --lo5: #F56A01;
-    --lo6: #F56A01;
-    --lo7: #F56A01;
+    --lo1: #ffffad;
+    --lo2: #ffd493;
+    --lo3: #9affff;
+    --lo4: #18ffb1;
+    --lo5: #ff9f8c;
+    --lo6: #a9bcff;
+    --lo7: #ffbdda;
     --transparent: #0000007b;
     --shadow:  inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.1),
                 0 0 0 1px hsla(230, 13%, 9%, 0.075),
@@ -21,6 +21,10 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body{
@@ -178,6 +182,34 @@ a {
 
 .card:hover {
   background-color: #F56A01;
+}
+
+#lo1{
+  background-color: var(--lo1);
+}
+
+#lo2{
+  background-color: var(--lo2);
+}
+
+#lo3{
+  background-color: var(--lo3);
+}
+
+#lo4{
+  background-color: var(--lo4);
+}
+
+#lo5{
+  background-color: var(--lo5);
+}
+
+#lo6{
+  background-color: var(--lo6);
+}
+
+#lo7{
+  background-color: var(--lo7);
 }
 
 @media screen and (min-width: 1280px) {
