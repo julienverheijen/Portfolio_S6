@@ -36,14 +36,14 @@ h1 {
     color: var(--orange);
 }
 
-p a{
+/* p a{
     color: var(--orange);
 }
 
 p a:hover {
     text-decoration: underline;
     color: var(--white);
-}
+} */
 
 .toc-list, .toc-list ol {
     list-style-type: none;
