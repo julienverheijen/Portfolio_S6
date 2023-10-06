@@ -85,6 +85,10 @@ a {
   border-radius: 2rem;
 }
 
+.button:hover{
+  background-color: var(--orange);
+}
+
 .cards_container {
   display: -webkit-box;
   display: -ms-flexbox;

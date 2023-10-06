@@ -26,7 +26,7 @@
        div.getElementById("card-learningOutcome-icon").src = post.projectTypeIcon;
     //    div.getElementById("card-projectType-icon").content = post.learningOutcomeIcon;
        div.getElementById("card-title").textContent = post.title;
-       div.getElementById("card-details").textContent = post.details;
+       div.getElementById("card-details").textContent = post.context;
        div.getElementById("card-cover-img").src = post.coverImage;
        container.append(div);
      });

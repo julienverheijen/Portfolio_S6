@@ -1,6 +1,6 @@
 h1{
     color: var(--orange);
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 h2{
@@ -9,26 +9,24 @@ h2{
 }
 
 .deliverable_container{
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     container-type: inline-size;
-    container-name: maincontainer;
+    container-name: maincontainer; */
     display: grid;
     gap: 1em;
-    grid-template-columns: 1fr 1fr;
 }
 
-.deliverable_img{
+/* .deliverable_img{
     max-inline-size: 100%;
     block-size: auto;
     aspect-ratio: 3/2;
     object-fit: cover;
     border-radius: 2rem;
     margin: 1rem 0 1rem 0;
-}
+} */
 
 @media only screen and (max-width: 900px) {
     .deliverable_container{
