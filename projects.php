@@ -6,6 +6,7 @@
     <title>Projects</title>
     <script type="module" src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="projects.css">
 </head>
 <body class="maxViewWidth">
 
