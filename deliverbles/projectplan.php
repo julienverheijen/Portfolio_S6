@@ -7,12 +7,20 @@
     <script type="module" src="../deliverbles/deliverable.js"></script>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../deliverbles/deliverable.css">
-    <script> var projectId = 1; </script>
+    <script> 
+        var projectId = 1;
+    </script>
 </head>
 <body class="maxViewWidth">
     <?php include("../navigation.html");?>
         <header>
             <h1 id="deliverable-title"></h1>
+            <div id="badges-container">
+                <img class="badges" id="deliverable-projectType-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeA-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeB-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeC-icon" alt="" />
+              </div>
         </header>
     <div class="deliverable_container">
         <article class="body_context">

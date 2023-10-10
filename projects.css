@@ -52,14 +52,11 @@
   
   .top__icon {
       position: absolute;
-      bottom: 0.5rem;
-      left: 0.5rem;  
+      bottom: 0.3rem;
+      left: 0.3rem;  
       margin: 0 0.5rem;
       padding: 0.3rem;
-      width: 2rem;
       height: 2rem;
-      background-color: var(--transparent);
-      border-radius: 50%;
     }
   
   .card_bottom .bottom__title {

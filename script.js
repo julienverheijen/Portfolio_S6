@@ -7,23 +7,12 @@
 
  fetch("data.json")
    .then((response) => response.json())
-//    .then((data) => {
-//     if (data.projectType === "1"){
-//         console.log("true");
-//     }
-//     else {
-//         console.log("false");
-//     }
-//    })
-//    .catch(error => {
-//     console.error('Error loading JSON:', error);
-//     });
    .then((posts) => {
      container.innerHTML = "";
      posts.forEach((post) => {
        const div = cardTemplate.content.cloneNode(true);
        div.getElementById("card-link").href = post.link;
-       div.getElementById("card-learningOutcome-icon").src = post.projectTypeIcon;
+       div.getElementById("card-projectType-icon").src = post.projectTypeIcon;
     //    div.getElementById("card-projectType-icon").content = post.learningOutcomeIcon;
        div.getElementById("card-title").textContent = post.title;
        div.getElementById("card-details").textContent = post.context;

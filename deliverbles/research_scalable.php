@@ -14,7 +14,12 @@
 
         <header>
             <h1 id="deliverable-title"></h1>
-            <p id="deliverable-details"></p>
+            <div id="badges-container">
+                <img class="badges" id="deliverable-projectType-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeA-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeB-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeC-icon" alt="" />
+              </div>
         </header>
     <div class="deliverable_container">
         <article class="body_context">

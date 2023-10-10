@@ -21,7 +21,7 @@
                 <img class="top__img" id="card-cover-img" alt="" />
               </div>
               <div>
-                <img class="top__icon" id="card-learningOutcome-icon" alt="" />
+                <img class="top__icon" id="card-projectType-icon" alt="" />
               </div>
               <div>
                 <!-- <img class="top__icon" id="card-projectType-icon" alt="" /> -->
