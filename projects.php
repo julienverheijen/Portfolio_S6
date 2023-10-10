@@ -12,6 +12,11 @@
 
 <?php include("navigation.html");?>
 
+<ul class="breadcrumb">
+  <li><a href="../index.php">Home</a> /</li>
+  <li>Projects</li>
+</ul>
+
       <div class="cards_container">
         <template id="card-template">
           <a class="card" id="card-link">

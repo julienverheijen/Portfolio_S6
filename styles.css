@@ -71,6 +71,27 @@ body{
     float: right;
   }
 
+  .breadcrumb
+{
+  list-style: none;
+  padding-left: 0;
+}
+
+.breadcrumb li
+{
+  display: inline;
+}
+
+  ::-moz-selection {
+    color: var(--black);
+    background: var(--orange);
+  }
+  
+  ::selection {
+    color: var(--black);
+    background: var(--orange);
+  }
+
 a {
   text-decoration: none;
   color: var(--orange);

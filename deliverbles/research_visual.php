@@ -12,6 +12,12 @@
 <body class="maxViewWidth">
     <?php include("../navigation.html");?>
 
+    <ul class="breadcrumb">
+    <li><a href="../index.php">Home</a> /</li>
+    <li><a href="../projects.php">Projects</a> /</li>
+    <li>Research Visual</li>
+    </ul>
+
         <header>
             <h1 id="deliverable-title"></h1>
             <div id="badges-container">

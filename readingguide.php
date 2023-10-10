@@ -14,6 +14,12 @@
     <li id="backBtn"><a href="javascript:history.back()">&#10094; Back</a></li>
     <li id="readingGuideBtn"><a href="../documents/reading_guide.pdf" target="_blank">Open PDF File</a></li>
 </nav>
+
+<ul class="breadcrumb">
+    <li><a href="../index.php">Home</a> /</li>
+    <li>Reading Guide</li>
+    </ul>
+
 <div class="rg-container">
     <div>
         <h1>Reading Guide</h1>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Plan</title>
+    <title>Personal Project Plan</title>
     <script type="module" src="../deliverbles/deliverable.js"></script>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../deliverbles/deliverable.css">
@@ -13,6 +13,13 @@
 </head>
 <body class="maxViewWidth">
     <?php include("../navigation.html");?>
+
+    <ul class="breadcrumb">
+    <li><a href="../index.php">Home</a> /</li>
+    <li><a href="../projects.php">Projects</a> /</li>
+    <li>Personal Project Plan</li>
+    </ul>
+
         <header>
             <h1 id="deliverable-title"></h1>
             <div id="badges-container">
