@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Scalable</title>
+    <script src="https://kit.fontawesome.com/cc761c7f0d.js" crossorigin="anonymous"></script>
+    <script type="module" src="../deliverbles/deliverable.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../deliverbles/deliverable.css">
+    <script> var projectId = 3; </script>
+</head>
+<body class="maxViewWidth">
+    <nav class="mainNav">
+        <ul class="breadcrumb">
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i></a> /</li>
+            <li><a href="../projects.html">Projects</a> /</li>
+            <li>Research Scalable</li>
+        </ul>
+        <li id="readingGuideBtn"><a class="button" href="../readingguide.html">Reading Guide &#10095;</a></li>
+    </nav>
+    <div class="main-container">
+        <div>
+            <h1 id="deliverable-title"></h1>
+            <div id="badges-container">
+                <img class="badges" id="deliverable-projectType-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeA-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeB-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeC-icon" alt="" />
+            </div>
+
+            <div class="deliverable_container">
+                <article class="body_context">
+                    <h2>CONTEXT</h2>
+                    <p class="context_text" id="deliverable-context-text"></p>
+                </article>
+                <article class="body_results">
+                    <h2>RESULTS</h2>
+                    <p class="results_text" id="deliverable-results-text"></p>
+                    <p>The following questions must be answered first, to answer the research question ("How to make a portfolio scalable?&rdquo;).</p>
+                    <ul>
+                    <li><em>Am I going to use a framework?</em></li>
+                    <li><em>If yes? </em><em>Which framework should I use?</em></li>
+                    <li><em>Is a framework the best way to make it scalable for this project?</em><strong>&nbsp;</strong></li>
+                    </ul>
+                    <br>
+                    <p><strong>Am I going to use a framework?</strong></p>
+                    <p>The article by <a href="https://stackoverflow.blog/2020/02/03/is-it-time-for-a-front-end-framework/" target="_blank">Pekarsky (2020)</a> explains the advantages and disadvantages of using a framework.</p>
+                    <p><strong>Advantages</strong><strong>:</strong></p>
+                    <ol>
+                    <li><strong>Maintainability:</strong> Breaking up your app into reusable, standalone components makes it easier to make quick changes that don&rsquo;t impact the rest of the application.&nbsp;</li>
+                    <li><strong>Separation of concerns:</strong>&nbsp;Modern framework design encourages a maintainable, modular architecture and allows your front-end developers to focus on what they do best: taking data and displaying it to users in an intuitive and efficient way.</li>
+                    <li><strong>Speed:</strong>&nbsp;Boilerplate code aimed at addressing common problems makes it easier for you to get your app up and running; component-based design makes it quicker to develop.</li>
+                    <li><strong>Collaboration:</strong>&nbsp;Since frameworks often follow similar design patterns, it&rsquo;s easier for developers who are new to your codebase to develop and maintain your app.</li>
+                    <li><strong>Community:</strong>&nbsp;Popular frameworks have a community of people around them with dedicated tutorials, forums, meetups, and generally supportive developers you can seek help from.</li>
+                    </ol>
+                    <p><strong>Disadvantages</strong><strong>:</strong></p>
+                    <ol>
+                    <li><strong>Abstracted, overhead code:&nbsp;</strong>Until you&rsquo;re thoroughly familiar with it, framework code is a black box. It can be hard to discern how much of the code is helpful to your application and frustrating to fix bugs resulting from code you&rsquo;re not familiar with.</li>
+                    <li><strong>Learning curve:&nbsp;</strong>Learning to use a framework effectively takes time. To be productive, you need to understand the syntax, tooling,&nbsp;<em>and</em>&nbsp;philosophy behind how a framework functions. For projects where speed is essential, learning a brand new technology might not be the best use of your time.</li>
+                    <li><strong>Overkill for smaller projects:&nbsp;</strong>If you&rsquo;re looking to deploy a static site or a site where every component is unique, you might not need the power and overhead of a full-fledged framework. It might still be helpful to implement a minimal framework or even library&mdash;we&rsquo;ll discuss these in the next section.</li>
+                    <li><strong>Setup:&nbsp;</strong>Setting up and customizing a framework to your specific use case takes time. If speed is essential, go with what you know, or what your development team is comfortable with.</li>
+                    <li><strong>Strong opinions:</strong>&nbsp;An opinionated framework may feel constricting, and its design principles may clash with yours. Make sure you research the specific framework you&rsquo;re implementing. If you prefer to build from scratch, go with your own solution.</li>
+                    <li><strong>Ecosystem evolution:&nbsp;</strong>The JavaScript framework ecosystem is&nbsp;famously volatile. The hottest framework of today may not be popular next year, and with this shift, developers and support may be hard to find.</li>
+                    </ol>
+                    <p>So, there are a lot of advantages and disadvantages. Many of the same components will be used to develop the portfolio. These will also be continuously supplemented with new content. It will only take some time at the start to learn to understand the new code. According to the article, there is a lot of information about this online. That's why it's better to start with this during school and gain experience in using frameworks so that I can start working more quickly after studying.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Which framework should I use?</strong></p>
+                    <p>An article by <a href="https://www.ideamotive.co/blog/best-frontend-frameworks" target="_blank">Karczewski (2023)</a> explains the most popular frameworks of this year. I compared the advantages and disadvantages of the 5 most popular ones and determined which one would best suit this project.</p>
+                    <p><strong>React</strong></p>
+                    <p>&nbsp;+ Pro&rsquo;s</p>
+                    <ul>
+                    <li>Frequent updating;</li>
+                    <li>Virtual DOM enables high-speed operations in the document;</li>
+                    <li>You can combine it with many other JS libraries;</li>
+                    <li>Allows writing components without classes;</li>
+                    <li>Easy migration between different versions;</li>
+                    <li>Reusable code components;</li>
+                    <li>Good for beginners.</li>
+                    </ul>
+                    <p>- Con&rsquo;s</p>
+                    <ul>
+                    <li>Due to fast updates and many frameworks that complement React, it&rsquo;s challenging to browse proper documentation;</li>
+                    <li>The complexity of learning JSX syntax.&nbsp;</li>
+                    </ul>
+                    <p>The most popular framework for a reason. As a result, the most information can be found about it. Good for beginners but also complex to learn.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Vue</strong></p>
+                    <p>&nbsp;+ Pro&rsquo;s</p>
+                    <ul>
+                    <li>Tiny and fast;</li>
+                    <li>Friendly for beginners;</li>
+                    <li>Detailed documentation;</li>
+                    <li>Simple syntax;</li>
+                    <li>Two-way data binding.</li>
+                    </ul>
+                    <p>- Con&rsquo;s</p>
+                    <ul>
+                    <li>&nbsp; &nbsp; Lack of plugins and language barriers (lots of Chinese content);</li>
+                    <li>&nbsp; &nbsp; Relatively new and developed by private individuals;</li>
+                    <li>&nbsp; &nbsp; Limited community of developers (but growing);</li>
+                    <li>&nbsp; &nbsp; Limited applicability for more extensive projects;</li>
+                    <li>&nbsp; &nbsp; No solid company behind it.&nbsp;</li>
+                    </ul>
+                    <p>I used Vue before in a previous project. But certainly, don't know everything about this yet. Still, I would prefer to get acquainted with a new framework.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Svelt</strong></p>
+                    <p>+Pro's</p>
+                    <ul>
+                    <li>One of the fastest front-end frameworks with quick responsiveness;</li>
+                    <li>Component-based architecture with minimal code;</li>
+                    <li>Lightweight, simple, uses existing JS libraries;</li>
+                    <li>No virtual DOM;</li>
+                    <li>SEO optimized.</li>
+                    </ul>
+                    <p>- Con&rsquo;s</p>
+                    <ul>
+                    <li>Immature community and limited ecosystem;</li>
+                    <li>Lack of supporting materials, limited tooling;</li>
+                    <li>Certain doubts about scalability and coding nuances.</li>
+                    </ul>
+                    <p>It is beneficial for front-end beginners as it uses simple syntax, does not require DOM manipulations, and ensures that the browser loads as little as possible, which speeds up your web product.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Angular</strong></p>
+                    <p>&nbsp;+ Pro&rsquo;s</p>
+                    <ul>
+                    <li>Component-based architecture;</li>
+                    <li>Two-way data binding;</li>
+                    <li>Directives and dependency injection functions;</li>
+                    <li>Highly testable / reusable / manageable applications;</li>
+                    <li>Improved server performance;</li>
+                    <li>Strong community, good training materials, etc.;</li>
+                    <li>Supported by Google.</li>
+                    </ul>
+                    <p>- Con&rsquo;s</p>
+                    <ul>
+                    <li>Difficult for beginners and overwhelming for smaller teams;</li>
+                    <li>Limited SEO capabilities;</li>
+                    <li>Bloated code and large.</li>
+                    </ul>
+                    <p>Angular is considered one of the most complex front-end frameworks. It can be challenging to learn on your own from scratch.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>JQuery</strong></p>
+                    <p>+ Pro&rsquo;s</p>
+                    <ul>
+                    <li>Beginner-friendly;</li>
+                    <li>Convenient to work with;</li>
+                    <li>Compatible with all major web browsers;</li>
+                    <li>A large selection of plugins;</li>
+                    <li>A strong and well-developed community;</li>
+                    <li>Provides multiple tools for DOM manipulations;</li>
+                    <li>SEO optimized.</li>
+                    </ul>
+                    <p>- Con&rsquo;s</p>
+                    <ul>
+                    <li>Huge library to import;</li>
+                    <li>Apps built with it can be a bit slower than native apps;</li>
+                    <li>DOM APIs are considered outdated;</li>
+                    <li>Lacks a data layer.</li>
+                    </ul>
+                    <p>JQuery is the oldest on this list, therefore it is widely available and easy to work with.</p>
+                    <p>There is a wide choice for choosing a framework, the main requirement is that it is not too complex and that there is enough information about it. Because learning this framework takes extra time, I chose the most popular option, which is the most valuable to put on my resume. That's why React is the best choice in this case.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Is a framework the best way to make it scalable for this project?</strong></p>
+                    <p>In a conversation with teacher Bardt van der Dennen I found out that using a framework will not be the best solution for this project. Bardt says that it takes a lot of time to learn a new framework and I don&rsquo;t have that much time to learn it completely in one semester and directly implement it to the portfolio. Especially if you don&rsquo;t master JavaScript completely. He recommends me to use only Vanilla JavaScript. You can still repeat the same objects without copying the same code, so this makes it easy to adjust and is less error prone. He also advised me to use JSON the to put all the data in. This makes it clearer, and I only have to modify the JSON file and not search through the code.</p>
+                </article>
+                <article class="body_conclusion">
+                    <h2>CONCLUSION</h2>
+                    <p class="conclusion_text" id="deliverable-conclusion-text"></p>
+                </article>
+            </div>
+        </div>
+
+        <div class="side-container">
+            <div class="side-item">
+                <img class="image" id="deliverable-image" alt="" />
+            </div> 
+            <div class="side-item">
+                <a class="button" id="documentBtn" target="_blank">View Document</a>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
