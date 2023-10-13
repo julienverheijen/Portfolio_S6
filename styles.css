@@ -64,6 +64,7 @@ body{
     .breadcrumb a:hover{
     color: var(--orange);
     text-decoration: none;
+    transition: all 0.1s;
   }
 
 .breadcrumb {
@@ -83,6 +84,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: var(--white);
+  transition: all 0.1s;
 }
 
 .button{
@@ -102,6 +104,7 @@ a:hover {
   color: var(--white);
   background-color: var(--orange);
   text-decoration: none;
+  transition: all 0.1s;
 }
 
 img{
