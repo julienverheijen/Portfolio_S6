@@ -4,14 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Homepage</title>
-    <script type="module" src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="homepage.css">
 </head>
 <body class= "maxViewWidth">
-
-    <button onclick="window.location.href = 'projects.html';">
-        Projects
-      </button>
+    <div class="home-container">
+        <div class="home-container-item" id="project1" href="./deliverbles/projectplan.html">
+            <a href="./deliverbles/projectplan.html">
+                <img src="./assets/images/personal-project-plan.jpg">
+            </a>
+                <div class="text-block">
+                    <h3>Highlighted Project</h3>
+                    <p>Personal Project Plan</p>
+                </div>
+        </div>
+        <div class="home-container-item" id="project2">
+            <a href="./deliverbles/research_navigation.html">
+                <img src="./assets/images/research-navigation.jpg">
+            </a>
+                <div class="text-block">
+                    <h3>Most Viewed Project</h3>
+                    <p>Research - Navigation</p>
+                </div>
+        </div>
+        <div class="home-container-item" id="project3">
+            <a href="./deliverbles/research_scalable.html">
+                <img src="./assets/images/research-scalable.jpg">
+            </a>
+                <div class="text-block">
+                    <h3>Latest Project</h3>
+                    <p>Research - Scalable</p>
+                </div>
+        </div>
+        <div class="home-container-item" id="project4">
+            <a href="./deliverbles/research_visual.html">
+                <img src="./assets/images/research-visual.jpg">
+            </a>
+                <div class="text-block">
+                    <h3>Random Project</h3>
+                    <p>Research - Visual</p>
+                </div>
+        </div>
+        <div class="home-container-item" id="readingGuide">
+            <a class="button" href="../readingguide.html">
+                Reading Guide &#10095;
+            </a>
+        </div>
+        <div class="home-container-item" id="allProjects">
+            <a href="./projects.html">
+                <h1>All Projects <br> >>></h1>
+            </a>
+        </div>
+        <div class="home-container-item" id="aboutMe">
+            <a href="#">
+                <img src="./assets/images/julien-verheijen.jpg">
+            </a>
+                <div class="text-block" id="text-block-aboutMe">
+                    <p>Hi, I'm</p>
+                    <h3>Juliën Verheijen</h3>
+                    <span id="orangeBtn">Get to know me</span>
+                </div>
+        </div>
+    </div>
 </body>
 </html>
+<script type="module" src="script.js"></script>

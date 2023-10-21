@@ -1,3 +1,101 @@
-#backBtn{
-    display: none;
+#project1 { grid-area: project1; }
+#project2 { grid-area: project2; }
+#project3 { grid-area: project3; }
+#project4 { grid-area: project4; }
+#readingGuide { grid-area: readingGuide; }
+#allProjects { grid-area: allProjects; }
+#aboutMe { grid-area: aboutMe; }
+
+.home-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: grid;
+    grid-template-areas:    "project1 project1 project2 project2 readingGuide"
+                            "project1 project1 project2 project2 aboutMe"
+                            "allProjects project3 project3 project4 project4";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 4rem calc(47vh - 6rem) calc(47vh - 2rem);
+    grid-gap: 1.5rem;
+}
+
+.home-container-item{
+    position: relative;
+    border-radius: 1.5rem;
+    border: var(--shadow);
+}
+
+.home-container-item:hover{
+    -webkit-transform: scale(98%);
+    transform: scale(98%);
+    transition: all 0.5s;
+}
+
+.home-container-item img{
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+       filter: var(--gray);
+       -webkit-filter: grayscale(1);
+}
+
+.home-container-item img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: all 0.5s;
+}
+
+.text-block{
+    position: relative;
+    bottom: 5.5rem;
+    padding-left: 2rem;
+    color: var(--white);
+    pointer-events: none;
+}
+
+.text-block h1, h3{
+ margin: 0;
+}
+
+.text-block p{
+    margin: 0;
+}
+
+#allProjects{
+    background-color: var(--orange);
+}
+
+#allProjects h1{
+    padding: 1rem;
+    color: var(--white);
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text-block-aboutMe{
+    bottom: 8.5rem;
+}
+
+#text-block-aboutMe h3{
+    margin-bottom: 1rem;
+}
+
+#orangeBtn{
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+a:hover{
+    text-decoration: none;
 }
