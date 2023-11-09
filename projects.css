@@ -157,6 +157,13 @@ a:hover {
     transition-delay: 0.1s;
 }
 
+svg{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display:inline-block;
+}
+
 /* .card__footer {
     position: relative;
     bottom: 12px;
