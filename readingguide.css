@@ -40,6 +40,12 @@ h1{
   margin-bottom: 0.5em;
 }
 
+h2{
+  background: linear-gradient(90deg, var(--orange) 0%, var(--lightorange) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .toc-list, .toc-list ol {
     list-style-type: none;
   }
