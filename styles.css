@@ -4,6 +4,7 @@
     --white: #ffffff;
     --grey: #3e3e3e;
     --orange: #F56A01;
+    --lightorange: #fcb045;
     --lo1: #ffffad;
     --lo2: #ffd493;
     --lo3: #9affff;
@@ -139,16 +140,6 @@ img{
 
 #lo7{
   background-color: var(--lo7);
-}
-
-::-moz-selection {
-  color: var(--black);
-  background: var(--orange);
-}
-
-::selection {
-  color: var(--black);
-  background: var(--orange);
 }
 
 @media screen and (min-width: 1280px) {
