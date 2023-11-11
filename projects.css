@@ -124,8 +124,13 @@
     height: 350px;
 }
 
+.card:hover .card__title{
+  color: var(--black);
+}
+
 .card:hover {
   background-color: var(--orange);
+  color: var(--black);
 }
 
 a:hover {

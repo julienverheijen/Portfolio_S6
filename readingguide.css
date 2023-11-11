@@ -72,7 +72,7 @@ h2{
     background-color: var(--grey);
     border-radius: 0.5rem;  
     margin: 0.5rem 0 0 0;
-    color: white;
+    color: var(--white);
     padding: 18px;
     width: 100%;
     border: none;

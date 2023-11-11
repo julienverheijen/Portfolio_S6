@@ -30,7 +30,8 @@ body{
 .home-container-item{
     position: relative;
     border-radius: 1.5rem;
-    border: var(--shadow);
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
 }
 
 .home-container-item:hover{
@@ -59,12 +60,13 @@ body{
     position: relative;
     bottom: 5.5rem;
     padding-left: 2rem;
-    color: var(--white);
+    color: white;
     pointer-events: none;
 }
 
 .text-block h1, h3{
- margin: 0;
+    color: white;
+    margin: 0;
 }
 
 .text-block p{
@@ -77,7 +79,7 @@ body{
 
 #allProjects h1{
     padding: 1rem;
-    color: var(--white);
+    color: white;
     position: relative;
     text-align: center;
     top: 50%;
