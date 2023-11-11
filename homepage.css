@@ -1,3 +1,7 @@
+body{
+    margin: 2em 5em;
+}
+
 #project1 { grid-area: project1; }
 #project2 { grid-area: project2; }
 #project3 { grid-area: project3; }
@@ -99,3 +103,38 @@
 a:hover{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 1250px) {
+    body{
+        margin: 2em 5em;
+    }
+
+    .home-container{
+        grid-template-areas:    "project1 project1 project1 readingGuide readingGuide"
+                                "project1 project1 project1 aboutMe aboutMe"
+                                "project2 project2 project2 aboutMe aboutMe"
+                                "allProjects allProjects project3 project3 project3"
+                                "allProjects allProjects project4 project4 project4";
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 4rem calc(20vh - 4rem) 20vh 20vh 20vh;
+        grid-gap: 1.5rem; 
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    body{
+        margin: 2em;
+    }
+
+    .home-container{
+        grid-template-areas:    "allProjects readingGuide"
+                                "allProjects aboutMe"
+                                "project1 project1"
+                                "project2 project2"
+                                "project3 project3"
+                                "project4 project4";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 4rem calc(47vh - 6rem) 15rem 15rem 15rem 15rem;
+        grid-gap: 1.5rem;
+    }
+  }

@@ -24,7 +24,7 @@
             flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: start;
-    width: 370px;
+    width: 20rem;
     height: auto;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -91,7 +91,7 @@
 }
 
 .top__img {
-    height: 27rem;
+    height: 20rem;
     overflow: hidden;
     -webkit-transition: height 0.5s;
     transition: height 0.5s;
