@@ -8,7 +8,7 @@ fetch("../data.json")
         document.getElementById("deliverable-learningOutcomeA-icon").src = deliverable.learningOutcomeA;
         document.getElementById("deliverable-learningOutcomeB-icon").src = deliverable.learningOutcomeB;
         document.getElementById("deliverable-learningOutcomeC-icon").src = deliverable.learningOutcomeC;
-        document.getElementById("deliverable-image").src = deliverable.coverImage;
+        document.getElementById("deliverable-image").src = deliverable.pageImage;
         document.getElementById("deliverable-context-text").textContent = deliverable.context
         document.getElementById("deliverable-results-text").textContent = deliverable.results
         document.getElementById("deliverable-conclusion-text").textContent = deliverable.conclusion
