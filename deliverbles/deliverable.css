@@ -40,6 +40,11 @@ iframe{
     border-radius: 1rem;
 }
 
+.text-img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
 .side-container{
     position: sticky;
     position: -webkit-sticky;
