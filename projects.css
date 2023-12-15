@@ -65,8 +65,8 @@
     font-size: 1.2em;
     line-height: 1.375em;
     color: var(--white);
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: 400;
+    text-transform: capitalize;
     vertical-align: middle;
     display: table-cell;
     height: 3rem;
@@ -125,12 +125,12 @@
 }
 
 .card:hover .card__title{
-  color: var(--black);
+  color: var(--white);
 }
 
 .card:hover {
-  background-color: var(--orange);
-  color: var(--black);
+  background-color: var(--shadow);
+  color: var(--orange);
 }
 
 a:hover {

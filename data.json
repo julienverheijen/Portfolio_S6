@@ -178,5 +178,20 @@
         "results": "",
         "conclusion": "From these results, we can conclude that the smiley and ear design are overwhelmingly better than the percentage in circle shape design. The smiley design works best when the user only has a short time to look, it sticks better. However, the assignment aims to create insight and awareness among the people in the target group. This obviously works better with the ear design. For this reason, the ear design is chosen.",
         "documentLink": "../documents/a-b_testing.pdf"
+      },
+      {
+        "id": 13,
+        "title": "WeWeWeb",
+        "link": "./deliverbles/weweweb.html",
+        "projectTypeIcon": "../assets/icons/international_project.svg",
+        "learningOutcomeA": "../assets/icons/lo7.svg",
+        "learningOutcomeB": "",
+        "learningOutcomeC": "",
+        "coverImage": "./assets/images/weweweb.jpg",
+        "pageImage": "../assets/images/weweweb.jpg",
+        "context": "During this project, I visited the WeWeWeb conference. During this 2-days event, several speakers spoke and shared their UI knowledge and latest design trends with the audience.",
+        "results": "These 2 days we went to the conference venue, here we attended a number of different talks. We concluded the evenings to have dinner and go out with several classmates.",
+        "conclusion": "During this event, I gained new knowledge about UI design and the latest trends.",
+        "documentLink": "../documents/weweweb.pdf"
       }
   ]
