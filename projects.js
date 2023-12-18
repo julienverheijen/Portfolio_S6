@@ -1,12 +1,9 @@
 //Clone the card template
 const container = document.querySelector(".cards_container");
 const cardTemplate = document.getElementById("card-template");
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 20; i++) {
   container.append(cardTemplate.content.cloneNode(true));
 }
-
-
-
 
   document.addEventListener('DOMContentLoaded', () => {
     console.log('loaded')
@@ -18,7 +15,7 @@ for (let i = 0; i < 10; i++) {
         posts.forEach((post) => {
           const div = cardTemplate.content.cloneNode(true);
           div.getElementById("card-link").href = post.link;
-          div.getElementById("card-projectType-icon").src = post.projectTypeIcon;
+          div.getElementById("card-projectType-icon").src = post.coverProjectTypeIcon;
        //    div.getElementById("card-projectType-icon").content = post.learningOutcomeIcon;
           div.getElementById("card-title").textContent = post.title;
           div.getElementById("card-details").textContent = post.context;
