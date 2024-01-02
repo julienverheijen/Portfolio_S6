@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Personal Project Plan",
-      "link": "./deliverbles/projectplan.html",
+      "link": "./deliverables/projectplan.html",
       "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
       "projectTypeIcon": "../assets/icons/personal_project.svg",
       "learningOutcomeA": "../assets/icons/lo4.svg",
@@ -18,7 +18,7 @@
       {
         "id": 2,
         "title": "How can users easily navigate through the portfolio?",
-        "link": "./deliverbles/research_navigation.html",
+        "link": "./deliverables/research_navigation.html",
         "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
         "projectTypeIcon": "../assets/icons/personal_project.svg",
         "learningOutcomeA": "../assets/icons/lo1.svg",
@@ -34,7 +34,7 @@
       {
         "id": 3,
         "title": "How to make a portfolio scalable?",
-        "link": "./deliverbles/research_scalable.html",
+        "link": "./deliverables/research_scalable.html",
         "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
         "projectTypeIcon": "../assets/icons/personal_project.svg",
         "learningOutcomeA": "../assets/icons/lo3.svg",
@@ -50,7 +50,7 @@
       {
         "id": 4,
         "title": "How do I make a portfolio visually attractive?",
-        "link": "./deliverbles/research_visual.html",
+        "link": "./deliverables/research_visual.html",
         "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
         "projectTypeIcon": "../assets/icons/personal_project.svg",
         "learningOutcomeA": "../assets/icons/lo1.svg",
@@ -66,7 +66,7 @@
       {
         "id": 5,
         "title": "Group Project Plan",
-        "link": "./deliverbles/group_projectplan.html",
+        "link": "./deliverables/group_projectplan.html",
         "coverProjectTypeIcon": "./assets/icons/group_project.svg",
         "projectTypeIcon": "../assets/icons/group_project.svg",
         "learningOutcomeA": "../assets/icons/lo4.svg",
@@ -82,7 +82,7 @@
       {
         "id": 6,
         "title": "Products & Craft Design",
-        "link": "./deliverbles/products&craftdesign.html",
+        "link": "./deliverables/products&craftdesign.html",
         "coverProjectTypeIcon": "./assets/icons/international_project.svg",
         "projectTypeIcon": "../assets/icons/international_project.svg",
         "learningOutcomeA": "../assets/icons/lo7.svg",
@@ -98,7 +98,7 @@
       {
         "id": 7,
         "title": "UX/UI Design Trends",
-        "link": "./deliverbles/ux_ui_design_trends.html",
+        "link": "./deliverables/ux_ui_design_trends.html",
         "coverProjectTypeIcon": "./assets/icons/group_project.svg",
         "projectTypeIcon": "../assets/icons/group_project.svg",
         "learningOutcomeA": "../assets/icons/lo1.svg",
@@ -114,7 +114,7 @@
       {
         "id": 8,
         "title": "UX/UI Testing Methods",
-        "link": "./deliverbles/ux_ui_testing_methods.html",
+        "link": "./deliverables/ux_ui_testing_methods.html",
         "coverProjectTypeIcon": "./assets/icons/group_project.svg",
         "projectTypeIcon": "../assets/icons/group_project.svg",
         "learningOutcomeA": "../assets/icons/lo5.svg",
@@ -130,7 +130,7 @@
       {
         "id": 9,
         "title": "MoSCoW Method",
-        "link": "./deliverbles/moscow_method.html",
+        "link": "./deliverables/moscow_method.html",
         "coverProjectTypeIcon": "./assets/icons/group_project.svg",
         "projectTypeIcon": "../assets/icons/group_project.svg",
         "learningOutcomeA": "../assets/icons/lo1.svg",
@@ -146,7 +146,7 @@
       {
         "id": 10,
         "title": "Portfolio Development",
-        "link": "./deliverbles/portfolio_development.html",
+        "link": "./deliverables/portfolio_development.html",
         "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
         "projectTypeIcon": "../assets/icons/personal_project.svg",
         "learningOutcomeA": "../assets/icons/lo3.svg",
@@ -162,7 +162,7 @@
       {
         "id": 11,
         "title": "Retrospectives & Peer Feedback",
-        "link": "./deliverbles/retrospectives&peerfeedback.html",
+        "link": "./deliverables/retrospectives&peerfeedback.html",
         "coverProjectTypeIcon": "./assets/icons/group_project.svg",
         "projectTypeIcon": "../assets/icons/group_project.svg",
         "learningOutcomeA": "../assets/icons/lo6.svg",
@@ -178,7 +178,7 @@
       {
         "id": 12,
         "title": "A/B Testing",
-        "link": "./deliverbles/a-b_testing.html",
+        "link": "./deliverables/a-b_testing.html",
         "coverProjectTypeIcon": "./assets/icons/group_project.svg",
         "projectTypeIcon": "../assets/icons/group_project.svg",
         "learningOutcomeA": "../assets/icons/lo1.svg",
@@ -194,7 +194,7 @@
       {
         "id": 13,
         "title": "WeWeWeb",
-        "link": "./deliverbles/weweweb.html",
+        "link": "./deliverables/weweweb.html",
         "coverProjectTypeIcon": "./assets/icons/international_project.svg",
         "projectTypeIcon": "../assets/icons/international_project.svg",
         "learningOutcomeA": "../assets/icons/lo7.svg",

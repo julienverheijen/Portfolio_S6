@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WeWeWeb</title>
+    <title>Portfolio Development</title>
     <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="../deliverbles/deliverable.css">
+    <link rel="stylesheet" href="../deliverables/deliverable.css">
     <script> 
-        var projectId = 13;
+        var projectId = 10;
     </script>
 </head>
 
@@ -15,8 +15,8 @@
     <nav class="mainNav">
         <ul class="breadcrumb">
             <li><a href="../index.html"><i class="fa-solid fa-house"></i></a> /</li>
-            <li><a href="../projects.html">Projects</a> /</li>
-            <li>WeWeWeb</li>
+            <li><a href="../deliverables.html">Deliverables</a> /</li>
+            <li>Portfolio Development</li>
         </ul>
         <li id="readingGuideBtn"><a class="button" href="../readingguide.html">Reading Guide &#10095;</a></li>
     </nav>
@@ -38,6 +38,11 @@
                 </article>
                 <article class="body_results">
                     <h2>RESULTS</h2>
+                    <p>The entire portfolio was created in HTML, CSS, Vanilla JavaScript and JSON. The decision to choose these is explained research paper "<a href="https://i410544.hera.fhict.nl/portfolio_s6/deliverables/research_scalable.html">How to make the portfolio scalable?</a>".</p>
+                    <p>The deliverable page is partitioned with a card element that repeats as many times as the number of arrays in the JSON file.&nbsp; This JSON file contains all the data visible on the card. Including the title, image, description, project type and the texts that appear on each project page. This allows for clear editing of the text in the JSON file and changes in all locations of the website.</p>
+                    <p>Because the JSON file takes longer to load, we used a Javascript EventListener that shows a loading icon until all data has been loaded.</p>
+                    <p>To avoid problems, I worked with a version control system.&nbsp; With each component completed and fully working, I pushed it to GitHub. Here the code is safely stored, and I can always go back to an older version.</p>
+                    <a class="button" href="https://github.com/julienverheijen/Portfolio_S6" target="_blank">View Source Code</a>
                     <p class="results_text" id="deliverable-results-text"></p>
                 </article>
                 <article class="body_conclusion">
@@ -47,9 +52,8 @@
                 <article class="body_lo">
                     <h2>LEARNING OUTCOME</h2>
                     <p>
-                        <strong>Learning outcome 7: Goal-oriented interaction
-                            </strong><br>
-                        By participating in an international event.
+                        <strong>Learning outcome 3: Software design and realisation</strong><br>
+                        By creating and reusing software components and libraries to build a working product with code. And using Github as version control.
                     </p>
                 </article>
             </div>
@@ -60,7 +64,7 @@
                 <img class="image" id="deliverable-image" alt="" src="../assets/icons/loader.svg"/>
             </div> 
             <div class="side-item">
-                <a class="button" id="documentBtn" target="_blank">View Documentation</a>
+                <a class="button" id="documentBtn" target="_blank">View Development Document</a>
             </div>
         </div>
     </div> 
@@ -68,4 +72,4 @@
 </html>
 <script type="module" src="script.js"></script>
 <script src="https://kit.fontawesome.com/cc761c7f0d.js" crossorigin="anonymous"></script>
-<script type="module" src="../deliverbles/deliverable.js"></script>
+<script type="module" src="../deliverables/deliverable.js"></script>

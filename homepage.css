@@ -2,12 +2,12 @@ body{
     margin: 2em 5em;
 }
 
-#project1 { grid-area: project1; }
-#project2 { grid-area: project2; }
-#project3 { grid-area: project3; }
-#project4 { grid-area: project4; }
+#deliverable1 { grid-area: deliverable1; }
+#deliverable2 { grid-area: deliverable2; }
+#deliverable3 { grid-area: deliverable3; }
+#deliverable4 { grid-area: deliverable4; }
 #readingGuide { grid-area: readingGuide; }
-#allProjects { grid-area: allProjects; }
+#alldeliverables { grid-area: alldeliverables; }
 #aboutMe { grid-area: aboutMe; }
 
 .home-container{
@@ -19,9 +19,9 @@ body{
         -ms-flex-pack: center;
             justify-content: center;
     display: grid;
-    grid-template-areas:    "project1 project1 project2 project2 readingGuide"
-                            "project1 project1 project2 project2 aboutMe"
-                            "allProjects project3 project3 project4 project4";
+    grid-template-areas:    "deliverable1 deliverable1 deliverable2 deliverable2 readingGuide"
+                            "deliverable1 deliverable1 deliverable2 deliverable2 aboutMe"
+                            "alldeliverables deliverable3 deliverable3 deliverable4 deliverable4";
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 4rem calc(47vh - 6rem) calc(47vh - 2rem);
     grid-gap: 1.5rem;
@@ -73,11 +73,11 @@ body{
     margin: 0;
 }
 
-#allProjects{
+#alldeliverables{
     background-color: var(--orange);
 }
 
-#allProjects h1{
+#alldeliverables h1{
     font-size: 1.6em;
     padding: 1rem;
     color: white;
@@ -113,11 +113,11 @@ a:hover{
     }
 
     .home-container{
-        grid-template-areas:    "project1 project1 project1 readingGuide readingGuide"
-                                "project1 project1 project1 aboutMe aboutMe"
-                                "project2 project2 project2 aboutMe aboutMe"
-                                "allProjects allProjects project3 project3 project3"
-                                "allProjects allProjects project4 project4 project4";
+        grid-template-areas:    "deliverable1 deliverable1 deliverable1 readingGuide readingGuide"
+                                "deliverable1 deliverable1 deliverable1 aboutMe aboutMe"
+                                "deliverable2 deliverable2 deliverable2 aboutMe aboutMe"
+                                "alldeliverables alldeliverables deliverable3 deliverable3 deliverable3"
+                                "alldeliverables alldeliverables deliverable4 deliverable4 deliverable4";
         grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-rows: 4rem calc(20vh - 4rem) 20vh 20vh 20vh;
         grid-gap: 1.5rem; 
@@ -130,12 +130,12 @@ a:hover{
     }
 
     .home-container{
-        grid-template-areas:    "allProjects readingGuide"
-                                "allProjects aboutMe"
-                                "project1 project1"
-                                "project2 project2"
-                                "project3 project3"
-                                "project4 project4";
+        grid-template-areas:    "alldeliverables readingGuide"
+                                "alldeliverables aboutMe"
+                                "deliverable1 deliverable1"
+                                "deliverable2 deliverable2"
+                                "deliverable3 deliverable3"
+                                "deliverable4 deliverable4";
         grid-template-columns: 50% 50%;
         grid-template-rows: 4rem calc(47vh - 6rem) 15rem 15rem 15rem 15rem;
         grid-gap: 1.5rem;
