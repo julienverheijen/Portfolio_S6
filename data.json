@@ -156,7 +156,7 @@
         "pageImage": "../assets/images/portfolio_development.jpg",
         "context": "To know which requirements should be reflected in the design, we added up a Requirements List. As not all items are equally important, we used the MoSCoW method to divide up the requirements.",
         "results": "",
-        "conclusion": "By drawing up the requirements list, it becomes clear which technical and functional requirements belong in app. The MoSCoW method gives a good picture for which components are most important.",
+        "conclusion": "Writing code yourself takes quite a bit of time and effort. Since I have very little experience with Vanilla Javascript, this was a good project to learn more about it. Using JSON came in handy in this project. However, using a CMS system would make this even easier to add content",
         "documentLink": "../documents/portfolio_development.pdf"
       },
       {
