@@ -74,6 +74,8 @@ body{
     user-select: none; 
     -webkit-user-select: none; 
     -ms-user-select: none; 
+    display: flex;
+    justify-content: space-between;
   }
   
   .mainNav ul{

@@ -13,40 +13,39 @@
           <li><a href="./index.html"><i class="fa-solid fa-house"></i></a> /</li>
           <li>Deliverables</li>
       </ul>
+      <div class="filter">
+      <button class="filterbutton" id="showAll">All Projects</button>
+      <button class="filterbutton" id="showPersonal">Personal</button>
+      <button class="filterbutton" id="showInternational">International</button>
+      <button class="filterbutton" id="showGroup">Group</button>
+      </div>
       <li id="readingGuideBtn"><a class="button" href="./readingguide.html">Reading Guide &#10095;</a></li>
   </nav>
 
-      <div class="cards_container">
-        <template id="card-template">
-          <a class="card" id="card-link">
-            <div class="card__header">
-              <div>
-                <img class="top__img" id="card-cover-img" alt="" src="./assets/icons/loader.svg"/>
-                
-              </div>
-              <div>
-                <img class="top__icon" id="card-projectType-icon" alt="" />
-              </div>
-              <div>
-                <!-- <img class="top__icon" id="card-projectType-icon" alt="" /> -->
-              </div>
-            </div>
-            
-            <div class="card__body">
-              <div>
-                <h3 class="card__title" id="card-title">Loading...</h3>
-              </div>
-              <div class="card__description" id="card-details"></div>
-            </div>
-
-            <div class="card__footer">
-              <!-- Place for LO icons -->
-            </div>
-          </a>
-        </template>
+<div class="cards_container" id="card_container">
+  <template id="card-template">
+    <a class="card" id="card-link">
+      <div class="card__header">
+        <div>
+          <img class="top__img" id="card-cover-img" alt="" src="./assets/icons/loader.svg"/>
+          
+        </div>
+        <div>
+          <img class="top__icon" id="card-projectType-icon" alt="" />
+        </div>
       </div>
+      
+      <div class="card__body">
+        <div>
+          <h3 class="card__title" id="card-title">Loading...</h3>
+        </div>
+        <div class="card__description" id="card-details"></div>
+      </div>
+    </a>
+  </template>
+</div>
+<script type="module" src="script.js"></script>
+<script type="module" src="deliverables.js"></script>
+<script src="https://kit.fontawesome.com/cc761c7f0d.js" crossorigin="anonymous"></script>
 </body>
 </html>
-<script type="module" src="script.js"></script>
-<script src="https://kit.fontawesome.com/cc761c7f0d.js" crossorigin="anonymous"></script>
-<script type="module" src="deliverables.js"></script>

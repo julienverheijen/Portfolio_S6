@@ -1,3 +1,7 @@
+html{
+  overflow-y:scroll;
+}
+
 .cards_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11,7 +15,7 @@
   }
 
   .card {
-    background-color: var(--grey);;
+    background-color: var(--glass);;
     -webkit-box-shadow: var(--shadow);
             box-shadow: var(--shadow);
     border-radius: 1rem;
@@ -125,12 +129,12 @@
 }
 
 .card:hover .card__title{
-  color: var(--white);
+  color: var(--lightorange);
 }
 
 .card:hover {
-  background-color: var(--shadow);
-  color: var(--orange);
+  background-color: var(--grey);
+  color: var(--white);
 }
 
 a:hover {
@@ -169,11 +173,30 @@ svg{
   display:inline-block;
 }
 
-/* .card__footer {
-    position: relative;
-    bottom: 12px;
-    left: 20px;
-    right: 20px;
-    font-size: 11px;
-    color: #A3A9A2;
-} */
+.filterbutton{
+  text-decoration: none;
+  border: none;
+  display:inline-flex;
+  background-color: var(--glass);
+  color: var(--white);
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select: none;
+  margin: 0.75rem 0.1em;
+  font-size: medium;
+  transition: all 0.1s;
+}
+
+.filterbutton:hover{
+  background-color: var(--grey);
+  transition: all 0.1s;
+}
+
+.filterbutton:disabled{
+  background-color: var(--orange);
+  transition: all 0.5s;
+}
