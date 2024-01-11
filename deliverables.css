@@ -173,6 +173,12 @@ svg{
   display:inline-block;
 }
 
+.filter{
+  background-color: var(--glass);
+  padding: 0.2rem 1rem;
+  border-radius: 1.5rem;
+}
+
 .filterbutton{
   text-decoration: none;
   border: none;
@@ -182,13 +188,14 @@ svg{
   text-align: center;
   padding: 0.5rem 1.5rem;
   text-decoration: none;
-  border-radius: 1.5rem;
+  border-radius: 0.75rem;
   user-select: none; 
   -webkit-user-select: none; 
   -ms-user-select: none;
   margin: 0.75rem 0.1em;
   font-size: medium;
   transition: all 0.1s;
+  cursor: pointer;
 }
 
 .filterbutton:hover{
