@@ -253,5 +253,22 @@
       "results": "",
       "conclusion": "",
       "documentLink": "../documents/usability_testing.pdf"
+    },
+    {
+      "id": 16,
+      "type": "P",
+      "title": "Broken Car Challenge",
+      "link": "./deliverables/broken_car_challenge.html",
+      "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
+      "projectTypeIcon": "../assets/icons/personal_project.svg",
+      "learningOutcomeA": "../assets/icons/lo3.svg",
+      "learningOutcomeB": "",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/broken_car_challenge.jpg",
+      "pageImage": "../assets/images/broken_car_challenge.jpg",
+      "context": "This document describes the broken car challenge from Stan van Oers. This workshop focuses on creating animations with GSAP.",
+      "results": "",
+      "conclusion": "Unfortunately, some workshops were not able to take place and it was more important to work on the group project and portfolio. which meant I spent little time on this challenge. As a result, there was no result as I had hoped. But by attending the 2 short workshops I was able to get to know what vite and gsap are and what they do. Which can hopefully be applied to a future project.",
+      "documentLink": "../documents/broken_car_challenge.pdf"
     }
   ]
