@@ -219,5 +219,39 @@
       "results": "These 2 days we went to the conference venue, here we attended a number of different talks. We concluded the evenings to have dinner and go out with several classmates.",
       "conclusion": "During this event, I gained new knowledge about UI design and the latest trends.",
       "documentLink": "../documents/weweweb.pdf"
+    },
+    {
+      "id": 14,
+      "type": "G",
+      "title": "Interactive Prototype",
+      "link": "./deliverables/prototype.html",
+      "coverProjectTypeIcon": "./assets/icons/group_project.svg",
+      "projectTypeIcon": "../assets/icons/group_project.svg",
+      "learningOutcomeA": "../assets/icons/lo2.svg",
+      "learningOutcomeB": "../assets/icons/lo3.svg",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/prototype.jpg",
+      "pageImage": "../assets/images/prototype.jpg",
+      "context": "To present and test our concept before it actually needs to be built, a prototype was created using Figma.  This has been created stepwise by each group member individually by starting with a wireframe and then turning it into a low-fidelity prototype. And finally merging the best elements of each prototype into one clickable high-fidelity prototype.",
+      "results": "",
+      "conclusion": "By creating a wireframe and low-fidelity prototype, I was able to present my concept to the project group and stakeholders early in the design process. This ensured that feedback could be added directly to the high-fidelity prototype, which is used for testing to improve the design before the software team builds the app.",
+      "documentLink": "../documents/prototype.pdf"
+    },
+    {
+      "id": 15,
+      "type": "G",
+      "title": "Usability Testing",
+      "link": "./deliverables/usability_testing.html",
+      "coverProjectTypeIcon": "./assets/icons/group_project.svg",
+      "projectTypeIcon": "../assets/icons/group_project.svg",
+      "learningOutcomeA": "../assets/icons/lo1.svg",
+      "learningOutcomeB": "../assets/icons/lo5.svg",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/usability_testing.jpg",
+      "pageImage": "../assets/images/usability_testing.jpg",
+      "context": "“How can we make sure the app maintains a good UX?” Answering this question means our design becomes validated which helps us provide the stakeholder with validated opinions on why we made certain design choices. To answer this, I will be conducting usability testing by connecting the final design prototype (clickable) to an online testing tool which will give us insights in how fast users can perform certain tasks, and how they felt while navigating through the app's basic features.",
+      "results": "",
+      "conclusion": "",
+      "documentLink": "../documents/usability_testing.pdf"
     }
   ]
