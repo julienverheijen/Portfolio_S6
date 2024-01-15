@@ -270,5 +270,22 @@
       "results": "",
       "conclusion": "Unfortunately, some workshops were not able to take place and it was more important to work on the group project and portfolio. which meant I spent little time on this challenge. As a result, there was no result as I had hoped. But by attending the 2 short workshops I was able to get to know what vite and gsap are and what they do. Which can hopefully be applied to a future project.",
       "documentLink": "../documents/broken_car_challenge.pdf"
+    },
+    {
+      "id": 17,
+      "type": "G",
+      "title": "Inovation Insights",
+      "link": "./deliverables/inovation_insights.html",
+      "coverProjectTypeIcon": "./assets/icons/group_project.svg",
+      "projectTypeIcon": "../assets/icons/group_project.svg",
+      "learningOutcomeA": "../assets/icons/lo3.svg",
+      "learningOutcomeB": "../assets/icons/lo7.svg",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/inovation_insights.jpg",
+      "pageImage": "../assets/images/inovation_insights.jpg",
+      "context": "During Innovation Insights, our group project will be presented to a wider audience. Here, we will have the opportunity to share our work, results and experiences about the work process of the past 12 weeks.",
+      "results": "",
+      "conclusion": "Collaborating in GitLab worked without any problems. Unfortunately, I cannot draw a conclusion about Inovation Insights at this point because it will take place after the portfolio deadline. However, I do expect the live decibel meter to be a good addition to better present the idea. Because this gives the visitor an audio and visual comparison of the situation the gym teachers will experience.",
+      "documentLink": "../documents/inovation_insights.pdf"
     }
   ]

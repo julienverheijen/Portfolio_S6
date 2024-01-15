@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovation Insights</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../deliverables/deliverable.css">
+    <script> 
+        var projectId = 17;
+    </script>
+</head>
+
+<body class="maxViewWidth">
+    <nav class="mainNav">
+        <ul class="breadcrumb">
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i></a> /</li>
+            <li><a href="../deliverables.html">Deliverables</a> /</li>
+            <li>Inovation Insights</li>
+        </ul>
+        <li id="readingGuideBtn"><a class="button" href="../readingguide.html">Reading Guide &#10095;</a></li>
+    </nav>
+
+    <div class="main-container">
+        <div>
+            <h1 id="deliverable-title"></h1>
+            <div id="badges-container">
+                <img class="badges" id="deliverable-projectType-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeA-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeB-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeC-icon" alt="" />
+            </div>
+
+            <div class="deliverable_container">
+                <article class="body_context">
+                    <h2>CONTEXT</h2>
+                    <p class="context_text" id="deliverable-context-text"></p>
+                </article>
+                <article class="body_results">
+                    <h2>RESULTS</h2>
+                    <p>To present our project, we wanted visitors to Innovation Insights to experience what it feels like to be in a room with a lot of noise pollution just like the gym teachers also experience. For this, we are going to install a speaker in one of the staterooms where we will loudly play the sound of children playing sports in a gymnasium.</p>
+                    <p>We want to make the sound not only audible but also visual. We will do this by setting up a screen with a live decibel meter.</p>
+                    <p>We coded this concept together with the group. Together, we set up a <a href="https://git.fhict.nl/I439985/griponsound">Gitlab repository</a>, with everyone working in their own branch and then merging them together.</p>
+                    <p>I created the live decibel meter based on the decibel meter I found on <a href="https://www.soundmeter.online/">soundmeter.online</a>. It uses the built-in microphone to measure the sound. The measured value is displayed large in the centre of the screen the numbers are indicated with the same colours as in the Noice Control app. (Green for good, Yellow for attention, red for harmful). It also displays the same icon as in the app to which the decibel level equals.&nbsp;</p>
+                    <a href="https://i410544.hera.fhict.nl/portfolio_s6/griponsound/"><img class="text-img" src="../assets/images/ii-1.png"></a>
+                    <p class="results_text" id="deliverable-results-text"></p>
+                </article>
+                <article class="body_conclusion">
+                    <h2>CONCLUSION</h2>
+                    <p class="conclusion_text" id="deliverable-conclusion-text"></p>
+                </article>
+                <article class="body_lo">
+                    <h2>LEARNING OUTCOME</h2>
+                    <p>
+                        <strong>Learning outcome 3: Software design and realisation</strong><br>
+                        By creating and reusing software components to build a working POC with code. Working together with group members on the same project with Gitlab. 
+                        <br><br>
+                        <strong>Learning outcome 7: Goal-oriented interaction</strong><br>
+                        By presenting and communicating with different stakeholders or collaboration partners about the project.
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <div class="side-container">
+            <div class="side-item">
+                <img class="image" id="deliverable-image" alt="" src="../assets/icons/loader.svg"/>
+            </div> 
+            <div class="side-item">
+                <a class="button" id="documentBtn" target="_blank">View Documentation</a>
+                <a class="button" id="linkBtn" href="https://i410544.hera.fhict.nl/portfolio_s6/griponsound/" target="_blank">View Demo</a>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
+<script type="module" src="script.js"></script>
+<script src="https://kit.fontawesome.com/cc761c7f0d.js" crossorigin="anonymous"></script>
+<script type="module" src="../deliverables/deliverable.js"></script>

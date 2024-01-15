@@ -58,7 +58,7 @@ iframe{
     justify-content: space-around;
 }
 
-#documentBtn {
+#documentBtn, #linkBtn {
     margin: 1rem 0 0 0;
 }
 
