@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   //make personal projects active
   showPersonal.addEventListener('click', async () => {
-    const filteredData = await filterDataByType('P');
+    const filteredData = await filterDataByType('P'); //P stands for Personal
     displayFilteredData(filteredData);
     enableAllButtons();
     showPersonal.disabled = true;
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   //make international projects active
   showInternational.addEventListener('click', async () => {
-    const filteredData = await filterDataByType('I');
+    const filteredData = await filterDataByType('I'); //I stands for International
     displayFilteredData(filteredData);
     enableAllButtons();
     showInternational.disabled = true;
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   //make group projects active
   showGroup.addEventListener('click', async () => {
-    const filteredData = await filterDataByType('G');
+    const filteredData = await filterDataByType('G'); //G stands for Group
     displayFilteredData(filteredData);
     enableAllButtons();
     showGroup.disabled = true;
@@ -67,11 +67,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   //display or clear filterd data
   function displayFilteredData(data) {
     container.innerHTML = ''; // Clear existing content
-
-    if (data.length === 0) {
-      filteredDataContainer.innerHTML = 'No matching items found.';
-      return;
-    }
 
     //post data
     data.forEach(post => {
