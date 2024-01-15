@@ -133,7 +133,7 @@
       "context": "This document answers the sub-question 'How can we test the UX/UI of the app?' In this research document, the most relevant testing methods for the 'grip on sound' project are discussed.",
       "results": "",
       "conclusion": "",
-      "documentLink": "../documents/ux_ui_design_trends.pdf"
+      "documentLink": "../documents/ux_ui_testing_methods.pdf"
     },
     {
       "id": 9,
@@ -274,19 +274,19 @@
     {
       "id": 17,
       "type": "G",
-      "title": "Inovation Insights",
-      "link": "./deliverables/inovation_insights.html",
+      "title": "Innovation Insights",
+      "link": "./deliverables/innovation_insights.html",
       "coverProjectTypeIcon": "./assets/icons/group_project.svg",
       "projectTypeIcon": "../assets/icons/group_project.svg",
       "learningOutcomeA": "../assets/icons/lo3.svg",
       "learningOutcomeB": "../assets/icons/lo7.svg",
       "learningOutcomeC": "",
-      "coverImage": "./assets/images/inovation_insights.jpg",
-      "pageImage": "../assets/images/inovation_insights.jpg",
+      "coverImage": "./assets/images/innovation_insights.jpg",
+      "pageImage": "../assets/images/innovation_insights.jpg",
       "context": "During Innovation Insights, our group project will be presented to a wider audience. Here, we will have the opportunity to share our work, results and experiences about the work process of the past 12 weeks.",
       "results": "",
       "conclusion": "Collaborating in GitLab worked without any problems. Unfortunately, I cannot draw a conclusion about Inovation Insights at this point because it will take place after the portfolio deadline. However, I do expect the live decibel meter to be a good addition to better present the idea. Because this gives the visitor an audio and visual comparison of the situation the gym teachers will experience.",
-      "documentLink": "../documents/inovation_insights.pdf"
+      "documentLink": "../documents/innovation_insights.pdf"
     },
     {
       "id": 18,
