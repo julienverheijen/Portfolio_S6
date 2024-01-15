@@ -287,5 +287,22 @@
       "results": "",
       "conclusion": "Collaborating in GitLab worked without any problems. Unfortunately, I cannot draw a conclusion about Inovation Insights at this point because it will take place after the portfolio deadline. However, I do expect the live decibel meter to be a good addition to better present the idea. Because this gives the visitor an audio and visual comparison of the situation the gym teachers will experience.",
       "documentLink": "../documents/inovation_insights.pdf"
+    },
+    {
+      "id": 18,
+      "type": "P",
+      "title": "C4-Model",
+      "link": "./deliverables/c4_model.html",
+      "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
+      "projectTypeIcon": "../assets/icons/personal_project.svg",
+      "learningOutcomeA": "../assets/icons/lo1.svg",
+      "learningOutcomeB": "../assets/icons/lo3.svg",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/c4_model.jpg",
+      "pageImage": "../assets/images/c4_model.jpg",
+      "context": "In order to deconstruct the portfolio website, it is useful to use the C4 Model. This ensures that the structure can be visually explained at 4 different levels of detail.",
+      "results": "",
+      "conclusion": "",
+      "documentLink": "../documents/c4_model.pdf"
     }
   ]
