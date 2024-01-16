@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advisory Report</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../deliverables/deliverable.css">
+    <script> 
+        var projectId = 20;
+    </script>
+</head>
+
+<body class="maxViewWidth">
+    <nav class="mainNav">
+        <ul class="breadcrumb">
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i></a> /</li>
+            <li><a href="../deliverables.html">Deliverables</a> /</li>
+            <li>Advisory Report</li>
+        </ul>
+        <li id="readingGuideBtn"><a class="button" href="../readingguide.html">Reading Guide &#10095;</a></li>
+    </nav>
+
+    <div class="main-container">
+        <div>
+            <h1 id="deliverable-title"></h1>
+            <div id="badges-container">
+                <img class="badges" id="deliverable-projectType-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeA-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeB-icon" alt="" />
+                <img class="badges" id="deliverable-learningOutcomeC-icon" alt="" />
+            </div>
+
+            <div class="deliverable_container">
+                <article class="body_context">
+                    <h2>CONTEXT</h2>
+                    <p class="context_text" id="deliverable-context-text"></p>
+                </article>
+                <article class="body_results">
+                    <h2>RESULTS</h2>
+                    <p>We jointly prepared the advisory report, in which everyone added the results from their own research in a concise paragraph.</p>
+                    <p>Below is a summary of the most important conclusions.</p>
+                    <p><strong>Survey on Awareness and Possible Solutions:</strong> A survey involving 24 physical education teachers highlighted a significant need for awareness, prevention, and management of hearing damage among PE teachers. An app with features like a daily noise limit, decibel meter, noise reduction tips, and periodic hearing tests emerged as an effective solution to support teachers in reducing noise pollution during PE lessons.</p>
+                    <p><strong>Focus Group on Insight:</strong> Discussions with six PE teachers revealed insights into decision-making processes and triggers for action. User testing of the daily dose feature indicated a need for additional context clues and a timeline feature, emphasizing the importance of refining the user interface based on user preferences.</p>
+                    <p><strong>A/B Testing Daily Dose:</strong> A/B testing of Daily Dose page variants showed that the ear design performed significantly better than the percentage in a circle shape design, particularly in raising awareness among the target group.</p>
+                    <p><strong>Usability Testing:</strong> Moderated and unmoderated usability testing, involving 8 one-on-one sessions and 27 unmoderated tests, identified design flaws and gathered valuable feedback. Despite minor issues, users generally found the design clear and user-friendly, with specific suggestions for improvement.</p>
+                    <p><strong>Branding:</strong> Color theory was used to establish a brand palette of deep orange and royal blue, representing security and playfulness. The Inter variable font was chosen for its balance of seriousness and playfulness, and Google&rsquo;s Material Icons were incorporated for familiarity among Android users.</p>
+                    <p><strong>Light/Dark Mode Research:</strong> After considering factors like eye strain, battery drain, and visibility, the decision was made to opt for light mode, offering a professional experience for young-adult and adult teachers. However, a theme toggle setting will be included to provide users with a choice.</p>
+                    <p><strong>Testing Methods Research:</strong> Usability testing was chosen as the primary method to validate the prototype due to planned one-on-one sessions with users.</p>
+                    <p><strong>In-App Features Research:</strong> Playful elements were initially considered for behavioral changes, but after stakeholder input, the focus remained on raising awareness among PE teachers about noise issues, rather than solving the problem directly.</p>
+                    <p class="results_text" id="deliverable-results-text"></p>
+                </article>
+                <article class="body_conclusion">
+                    <h2>CONCLUSION</h2>
+                    <p>By drawing up the advisory report, the stakeholder can see in a document how loading studies have been carried out and why loading choices have been made. The advice we give him is as follows:</p>
+                    <p><strong>Design:</strong> In the final phase of user testing, most design flaws were successfully addressed. However, an unresolved issue pertains to determining data relevance for individual users, with further research needed to explore solutions like creating a priority list for displaying relevant data. Key features requiring attention in the app development process include implementing and finalizing the tour feature for improved user onboarding, enhancing the settings screen for customization options, refining the account creation screen for seamless registration, and incorporating a logout feature for user account management. Addressing these features will refine the user experience and contribute to the overall success of the app. Ongoing consideration of user feedback and research will guide the Noise Control team in optimizing data presentation and ensuring the app meets the diverse needs of its user base.</p>
+                    <p><strong>Code:</strong> Figma was utilized for crafting the app, with the "Android Large" frame chosen based on the client's indication that the app was intended for a Google Pixel phone. The recommendation is to realize the app with code that can run on an Android phone, using languages like Java, Kotlin, or a Progressive Web App with HTML, CSS, and JavaScript. For smartwatch connectivity, compatibility with supporting software is recommended, although detailed guidance is limited due to current knowledge constraints.</p>
+                    <p class="conclusion_text" id="deliverable-conclusion-text"></p>
+                </article>
+                <article class="body_lo">
+                    <h2>LEARNING OUTCOME</h2>
+                    <p>
+                        <span class="dot" id="lo1"></span><strong>/</strong><br>
+                        /
+                        <br><br>
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <div class="side-container">
+            <div class="side-item">
+                <img class="image" id="deliverable-image" alt="" src="../assets/icons/loader.svg"/>
+            </div> 
+            <div class="side-item">
+                <a class="button" id="documentBtn" target="_blank"><i class="fa-regular fa-file"></i>&nbsp; View Documentation</a>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
+<script type="module" src="script.js"></script>
+<script src="https://kit.fontawesome.com/cc761c7f0d.js" crossorigin="anonymous"></script>
+<script type="module" src="../deliverables/deliverable.js"></script>

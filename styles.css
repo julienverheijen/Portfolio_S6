@@ -45,19 +45,21 @@
   }
 }
 
-*{
-    font-family: 'Poppins', sans-serif;
-}
+/* *{
+    
+} */
 
 html {
   scroll-behavior: smooth;
   min-height: 100vh;
+  
 }
 
 body{
     background-color: var(--black);
     color: var(--white);
     margin: 2em 2em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .mainNav{

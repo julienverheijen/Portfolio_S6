@@ -196,6 +196,7 @@ svg{
   font-size: medium;
   transition: all 0.1s;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
 
 .filterbutton:hover{

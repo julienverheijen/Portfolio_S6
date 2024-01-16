@@ -302,7 +302,41 @@
       "pageImage": "../assets/images/c4_model.jpg",
       "context": "In order to deconstruct the portfolio website, it is useful to use the C4 Model. This ensures that the structure can be visually explained at 4 different levels of detail.",
       "results": "",
-      "conclusion": "",
+      "conclusion": "With the first version, I went to Bardt van der Dennen to get feedback. This showed that the model looked fine for 'level 2 - container'. He only advised me to make the model in the original colours next time. However, after I told him that the colours on the sample website change randomly, it turned out that no official colour had been agreed. In other words, no feedback.",
       "documentLink": "../documents/c4_model.pdf"
+    },
+    {
+      "id": 19,
+      "type": "G",
+      "title": "Scrum Standups",
+      "link": "./deliverables/scrum_standups.html",
+      "coverProjectTypeIcon": "./assets/icons/group_project.svg",
+      "projectTypeIcon": "../assets/icons/group_project.svg",
+      "learningOutcomeA": "../assets/icons/lo7.svg",
+      "learningOutcomeB": "",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/scrum_standups.jpg",
+      "pageImage": "../assets/images/scrum_standups.jpg",
+      "context": "During the group project, we worked with the scrum method, for both our own group and the grip on sound group. In this, we did daily or every other week stand-up organising. With our project group, we divided the project into 6 sprints of 2 weeks each. Each sprint, someone else has been the scrum master. I have been this during the 2nd sprint.",
+      "results": "",
+      "conclusion": "By using these standups, you had a clear picture of what other people in the project group were doing. And you can easily indicate if someone needs help. It is also a good time to discuss something with the whole group. The stand-ups with the entire 'grip on sound' group were less useful. As like the other groups, we didn't have much to gain from the information we or they shared.",
+      "documentLink": "../documents/scrum_standups.pdf"
+    },
+    {
+      "id": 20,
+      "type": "G",
+      "title": "Advisory report",
+      "link": "./deliverables/advisory_report.html",
+      "coverProjectTypeIcon": "./assets/icons/group_project.svg",
+      "projectTypeIcon": "../assets/icons/group_project.svg",
+      "learningOutcomeA": "",
+      "learningOutcomeB": "",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/advisory_report.jpg",
+      "pageImage": "../assets/images/advisory_report.jpg",
+      "context": "At the end of the project, we prepared an advisory report for the stakeholder. This contains everything about the project. such as the research methods we used, results we found, conclusions drawn and the follow-up steps to be taken to reach the next TRL (Technology Readiness Level).",
+      "results": "",
+      "conclusion": "",
+      "documentLink": "../documents/advisory_report.pdf"
     }
   ]
