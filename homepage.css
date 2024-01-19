@@ -81,7 +81,7 @@ body{
     font-size: 1.6em;
     padding: 1rem;
     color: white;
-    position: absolute;
+    position: relative;
     text-align: center;
     top: 50%;
     left: 50%;
