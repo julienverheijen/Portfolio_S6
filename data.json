@@ -303,7 +303,7 @@
       "context": "In order to deconstruct the portfolio website, it is useful to use the C4 Model. This ensures that the structure can be visually explained at 4 different levels of detail.",
       "results": "",
       "conclusion": "With the first version, I went to Bardt van der Dennen to get feedback. This showed that the model looked fine for 'level 2 - container'. He only advised me to make the model in the original colours next time. However, after I told him that the colours on the sample website change randomly, it turned out that no official colour had been agreed. In other words, no feedback.",
-      "documentLink": "../documents/c4_model.pdf"
+      "documentLink": "../documents/c4-model.pdf"
     },
     {
       "id": 19,
@@ -329,7 +329,7 @@
       "link": "./deliverables/advisory_report.html",
       "coverProjectTypeIcon": "./assets/icons/group_project.svg",
       "projectTypeIcon": "../assets/icons/group_project.svg",
-      "learningOutcomeA": "",
+      "learningOutcomeA": "../assets/icons/lo7.svg",
       "learningOutcomeB": "",
       "learningOutcomeC": "",
       "coverImage": "./assets/images/advisory_report.jpg",
@@ -338,5 +338,39 @@
       "results": "",
       "conclusion": "",
       "documentLink": "../documents/advisory_report.pdf"
+    },
+    {
+      "id": 21,
+      "type": "P",
+      "title": "Reflection",
+      "link": "./deliverables/reflection.html",
+      "coverProjectTypeIcon": "./assets/icons/personal_project.svg",
+      "projectTypeIcon": "../assets/icons/personal_project.svg",
+      "learningOutcomeA": "../assets/icons/lo6.svg",
+      "learningOutcomeB": "",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/reflection.jpg",
+      "pageImage": "../assets/images/reflection.jpg",
+      "context": "To look back at how I acted myself during this semester, I wrote a reflection using Benders (2023) START methodology. This allows me to know what went well and what I would do differently next time to become a better media designer.",
+      "results": "",
+      "conclusion": "",
+      "documentLink": "../documents/reflection.pdf"
+    },
+    {
+      "id": 22,
+      "type": "I",
+      "title": "Common Grounds",
+      "link": "./deliverables/common_grounds.html",
+      "coverProjectTypeIcon": "./assets/icons/international_project.svg",
+      "projectTypeIcon": "../assets/icons/international_project.svg",
+      "learningOutcomeA": "../assets/icons/lo6.svg",
+      "learningOutcomeB": "../assets/icons/lo7.svg",
+      "learningOutcomeC": "",
+      "coverImage": "./assets/images/common_grounds.jpg",
+      "pageImage": "../assets/images/common_grounds.jpg",
+      "context": "The first week of this semester was a special one where we were divided into random groups of 16 people along with other students from semesters 2, 4 and 6. With these unknown people, we had to come up with a concept for another planet called Kepler-452B within a week.",
+      "results": "",
+      "conclusion": "",
+      "documentLink": "../documents/common_grounds.pdf"
     }
   ]
